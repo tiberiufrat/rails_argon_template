@@ -30,6 +30,26 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  general:
+    actions: Actions
+    new: New
+    filters: Filters
+    list_of: List of
+    edit: Edit
+    view: View
+    delete: Delete
+    show: Show
+    back: Back
+    add: Add
+    add_new: Add new
+    previous: Previous
+    current: Current
+    next: Next
+    are_you_sure_delete: Are you sure you want to delete this item?
+    
+  activerecord:
+    models:
+    attributes:
   hello: "Hello world"
 
 # Custom formats
