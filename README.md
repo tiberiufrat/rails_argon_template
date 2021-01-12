@@ -1,16 +1,15 @@
-# The Construct
-**This is The Construct.** It's our rails template, it has almost everything. From beautiful layout to production ready setup, javascript components and good practices to learn.
-
-![The Construct](https://raw.githubusercontent.com/lazaronixon/the_construct/master/screenshot_1.jpg)
+# Rails Argon Template
+**This is a ruby on rails template featuring the Argon dashboard theme.** It's our rails template, it has almost everything. From beautiful layout to production ready setup and javascript components. It is adapted after lazaronixon's [The Construct](https://github.com/lazaronixon/the_construct) template.
 
 ## Getting started
 ```
-$ git clone https://github.com/lazaronixon/the_construct.git
-$ rails new awesome-rails -d=postgresql --webpack=stimulus -m ~/RailsProjects/the_construct/template.rb
+$ git clone https://github.com/tiberiufrat/rails_argon_template
+$ rails new my_rails_app -d=postgresql --webpack=stimulus -m ~/projects/rails_argon_template/template.rb
 ```
 
 ## Features
-* [Stisla Admin Template](https://demo.getstisla.com)
+* Argon dashboard template
+* FontAwesome 5 icons
 * [TurboLinks](https://github.com/turbolinks/turbolinks)
 * [Stimulus](https://github.com/stimulusjs/stimulus)
 * [Scaffolds](https://guides.rubyonrails.org/command_line.html#rails-generate)
@@ -19,12 +18,12 @@ $ rails new awesome-rails -d=postgresql --webpack=stimulus -m ~/RailsProjects/th
 * [DHH development practices](https://www.youtube.com/channel/UCdx5Dk3EWTe2i8YDA7bfl6g)
 * [ScreenCast](https://www.youtube.com/watch?v=_p0S0Ll7o78)
 
-### Stisla Admin Template
-The construct integrates [Stisla Admin Template](https://demo.getstisla.com) with modern rails ecosystem tools like Webpack, Turbolinks and Stimulus JS, bringing a sophisticated implementation and maximum performance without SPA hassle.
+### Argon template
+The construct integrates the Argon template with modern rails ecosystem tools like Webpack, Turbolinks and Stimulus JS, bringing a sophisticated implementation and maximum performance without SPA hassle.
 
 ### Scaffolds
 The construct replaces default scaffold template with a new one focused on production. Some features are:
-* [Sortable and filterable](https://github.com/activerecord-hackery/ransack)
+* Sortable and filterable with datatables.net
 * [Infinite scroll pagination](https://github.com/basecamp/geared_pagination)
 * [Exportable data](https://github.com/westonganger/spreadsheet_architect)
 * [Input masks](https://demo.getstisla.com/forms-advanced-form.html)
