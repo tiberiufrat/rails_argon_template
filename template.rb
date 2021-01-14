@@ -84,12 +84,13 @@ after_bundle do
   rails_command 'db:create'
   rails_command 'db:migrate'
   
+  run 'rm app/assets/stylesheets/application.css'
+  
   puts "\u001b[34;1m⎇ Adding to the git repository..."
   run 'git add .'
   run 'git commit -m "Initialise rails app with Argon template"'
   puts "\u001b[34;1m✅ Done!"
   
-  run 'rm app/assets/stylesheets/application.css'
   puts "\u001b[32;1m✅ Bundle finished! You can now start coding!"
 end
 puts "\u001b[32;1m✅ Completed. Processing..."
